@@ -1,0 +1,158 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pandas",
+    "python",
+    "xarray"
+  ],
+  "extracted_package_dir": "/home/barrazaj636/anaconda3/pkgs/pandas-flavor-0.2.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/pandas_flavor-0.2.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/pandas_flavor-0.2.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/pandas_flavor-0.2.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/pandas_flavor-0.2.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/pandas_flavor-0.2.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/pandas_flavor/__init__.py",
+    "lib/python3.9/site-packages/pandas_flavor/__version__.py",
+    "lib/python3.9/site-packages/pandas_flavor/extension.py",
+    "lib/python3.9/site-packages/pandas_flavor/pandas_internals.py",
+    "lib/python3.9/site-packages/pandas_flavor/register.py",
+    "lib/python3.9/site-packages/pandas_flavor/xarray.py",
+    "lib/python3.9/site-packages/pandas_flavor/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_flavor/__pycache__/__version__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_flavor/__pycache__/extension.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_flavor/__pycache__/pandas_internals.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_flavor/__pycache__/register.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_flavor/__pycache__/xarray.cpython-39.pyc"
+  ],
+  "fn": "pandas-flavor-0.2.0-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/barrazaj636/anaconda3/pkgs/pandas-flavor-0.2.0-py_0",
+    "type": 1
+  },
+  "md5": "4e7641376dbfc2ca5abff209273ed37c",
+  "name": "pandas-flavor",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/barrazaj636/anaconda3/pkgs/pandas-flavor-0.2.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pandas_flavor-0.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pandas_flavor-0.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "dc649fdc936864917f7595b54a5e30352d8baada14375846e7ccdacbf80c1c3c",
+        "sha256_in_prefix": "dc649fdc936864917f7595b54a5e30352d8baada14375846e7ccdacbf80c1c3c",
+        "size_in_bytes": 5863
+      },
+      {
+        "_path": "site-packages/pandas_flavor-0.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e424821f294988d39af9a89f7554fbc84eb03a3f1cc22e054264d18136796253",
+        "sha256_in_prefix": "e424821f294988d39af9a89f7554fbc84eb03a3f1cc22e054264d18136796253",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "site-packages/pandas_flavor-0.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "sha256_in_prefix": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/pandas_flavor-0.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b3f2b41545465e4a7fcdb1fa01fa5ce98d93ba51875e2ec1cdf052d4e31ffed5",
+        "sha256_in_prefix": "b3f2b41545465e4a7fcdb1fa01fa5ce98d93ba51875e2ec1cdf052d4e31ffed5",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/pandas_flavor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8b22b0b764b2a45b6aac44ddda78fc5b35a5a108960d59153e9069edccf1b421",
+        "sha256_in_prefix": "8b22b0b764b2a45b6aac44ddda78fc5b35a5a108960d59153e9069edccf1b421",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "site-packages/pandas_flavor/__version__.py",
+        "path_type": "hardlink",
+        "sha256": "1551cf04691f85b4038bfcf7bf43e2289ad75ea5cec74bc65bfd556aa3498bb5",
+        "sha256_in_prefix": "1551cf04691f85b4038bfcf7bf43e2289ad75ea5cec74bc65bfd556aa3498bb5",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/pandas_flavor/extension.py",
+        "path_type": "hardlink",
+        "sha256": "7e524c0da791a9a639b30f34effa852b4bc74107bb46de249d0996a28343c0b5",
+        "sha256_in_prefix": "7e524c0da791a9a639b30f34effa852b4bc74107bb46de249d0996a28343c0b5",
+        "size_in_bytes": 734
+      },
+      {
+        "_path": "site-packages/pandas_flavor/pandas_internals.py",
+        "path_type": "hardlink",
+        "sha256": "744af81afbf7c834a88cdb821e558230724bc9917d593360d41c600fe1c9b682",
+        "sha256_in_prefix": "744af81afbf7c834a88cdb821e558230724bc9917d593360d41c600fe1c9b682",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "site-packages/pandas_flavor/register.py",
+        "path_type": "hardlink",
+        "sha256": "5cba463e2f50039d4ce06fbcf424f881f91dfbb4275a729aaff2ecd653767898",
+        "sha256_in_prefix": "5cba463e2f50039d4ce06fbcf424f881f91dfbb4275a729aaff2ecd653767898",
+        "size_in_bytes": 1425
+      },
+      {
+        "_path": "site-packages/pandas_flavor/xarray.py",
+        "path_type": "hardlink",
+        "sha256": "1e0700508364883674d3577b6d7ab9278b731eea33729bbadc3410fd45279986",
+        "sha256_in_prefix": "1e0700508364883674d3577b6d7ab9278b731eea33729bbadc3410fd45279986",
+        "size_in_bytes": 1051
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_flavor/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_flavor/__pycache__/__version__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_flavor/__pycache__/extension.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_flavor/__pycache__/pandas_internals.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_flavor/__pycache__/register.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_flavor/__pycache__/xarray.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fc2c14956e5ef0dc855b70a157f95d259c2d877bd8f3afa7ac28a922fa7a6d37",
+  "size": 7852,
+  "subdir": "noarch",
+  "timestamp": 1573468435809,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pandas-flavor-0.2.0-py_0.tar.bz2",
+  "version": "0.2.0"
+}

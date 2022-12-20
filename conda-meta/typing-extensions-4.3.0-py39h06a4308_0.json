@@ -1,0 +1,35 @@
+{
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "typing_extensions 4.3.0 py39h06a4308_0"
+  ],
+  "extracted_package_dir": "/home/barrazaj636/anaconda3/pkgs/typing-extensions-4.3.0-py39h06a4308_0",
+  "features": "",
+  "files": [],
+  "fn": "typing-extensions-4.3.0-py39h06a4308_0.tar.bz2",
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "/home/barrazaj636/anaconda3/pkgs/typing-extensions-4.3.0-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "dfb50d579a0a9d64694fa8fc9ad29a8a",
+  "name": "typing-extensions",
+  "package_tarball_full_path": "/home/barrazaj636/anaconda3/pkgs/typing-extensions-4.3.0-py39h06a4308_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e1e71c101d4e958adb75689e7e1e6572d9785844dcefa5eabf78ca2fb80587e4",
+  "size": 8817,
+  "subdir": "linux-64",
+  "timestamp": 1659646912817,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/typing-extensions-4.3.0-py39h06a4308_0.tar.bz2",
+  "version": "4.3.0"
+}

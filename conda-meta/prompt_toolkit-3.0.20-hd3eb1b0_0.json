@@ -1,0 +1,35 @@
+{
+  "build": "hd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "prompt-toolkit >=3.0.20,<3.0.21.0a0"
+  ],
+  "extracted_package_dir": "/home/barrazaj636/anaconda3/pkgs/prompt_toolkit-3.0.20-hd3eb1b0_0",
+  "features": "",
+  "files": [],
+  "fn": "prompt_toolkit-3.0.20-hd3eb1b0_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/barrazaj636/anaconda3/pkgs/prompt_toolkit-3.0.20-hd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "5b8d900ea7c3e81549faca2c797f0d4b",
+  "name": "prompt_toolkit",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/barrazaj636/anaconda3/pkgs/prompt_toolkit-3.0.20-hd3eb1b0_0.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0d2faf4e779e746f8f3b1b298bf72385ef378729aaa432d2b9df722bf5e8b560",
+  "size": 12420,
+  "subdir": "noarch",
+  "timestamp": 1633440197481,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/prompt_toolkit-3.0.20-hd3eb1b0_0.tar.bz2",
+  "version": "3.0.20"
+}

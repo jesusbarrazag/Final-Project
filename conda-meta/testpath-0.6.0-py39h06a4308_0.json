@@ -1,0 +1,188 @@
+{
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/barrazaj636/anaconda3/pkgs/testpath-0.6.0-py39h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/testpath-0.6.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/testpath-0.6.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/testpath-0.6.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/testpath-0.6.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/testpath-0.6.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/testpath-0.6.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/testpath-0.6.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/testpath/__init__.py",
+    "lib/python3.9/site-packages/testpath/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/testpath/__pycache__/asserts.cpython-39.pyc",
+    "lib/python3.9/site-packages/testpath/__pycache__/commands.cpython-39.pyc",
+    "lib/python3.9/site-packages/testpath/__pycache__/env.cpython-39.pyc",
+    "lib/python3.9/site-packages/testpath/__pycache__/tempdir.cpython-39.pyc",
+    "lib/python3.9/site-packages/testpath/asserts.py",
+    "lib/python3.9/site-packages/testpath/cli-32.exe",
+    "lib/python3.9/site-packages/testpath/cli-64.exe",
+    "lib/python3.9/site-packages/testpath/commands.py",
+    "lib/python3.9/site-packages/testpath/env.py",
+    "lib/python3.9/site-packages/testpath/tempdir.py"
+  ],
+  "fn": "testpath-0.6.0-py39h06a4308_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/barrazaj636/anaconda3/pkgs/testpath-0.6.0-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "462c2a924ef617f929787960affc972c",
+  "name": "testpath",
+  "package_tarball_full_path": "/home/barrazaj636/anaconda3/pkgs/testpath-0.6.0-py39h06a4308_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/testpath-0.6.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath-0.6.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "95f7c73530d13d9fe14e59b8bbd2eb4901aab79e119e336cd937f495cce6fc36",
+        "sha256_in_prefix": "95f7c73530d13d9fe14e59b8bbd2eb4901aab79e119e336cd937f495cce6fc36",
+        "size_in_bytes": 1528
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath-0.6.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "dd1d819afd3a212053ee8223559c234a00ff4587634c43a50fcbd49d8b16539a",
+        "sha256_in_prefix": "dd1d819afd3a212053ee8223559c234a00ff4587634c43a50fcbd49d8b16539a",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath-0.6.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "447fe0fd7dec9325e38d6844ceea04e3df3b7745211de5f1f5a78a2621d4fc51",
+        "sha256_in_prefix": "447fe0fd7dec9325e38d6844ceea04e3df3b7745211de5f1f5a78a2621d4fc51",
+        "size_in_bytes": 1347
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath-0.6.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath-0.6.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8cf311fc3ce47385f889c42d9b3f35967358fe402c7e883baf2eeaa11bd82d7c",
+        "sha256_in_prefix": "8cf311fc3ce47385f889c42d9b3f35967358fe402c7e883baf2eeaa11bd82d7c",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath-0.6.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "07697a88e9c5041c6a9eaa107e358030fbcc61f1670d8b91f89144cb1e7e4d48",
+        "sha256_in_prefix": "07697a88e9c5041c6a9eaa107e358030fbcc61f1670d8b91f89144cb1e7e4d48",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "76b741ef48ccb92eb3eb79d8da987cbc63bf5e541f8772ab5dc38f4db0862166",
+        "sha256_in_prefix": "76b741ef48ccb92eb3eb79d8da987cbc63bf5e541f8772ab5dc38f4db0862166",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ccef5b7bbd699e2af8a2e345e373b7e986a1db7144b09a20726578e1fc191d48",
+        "sha256_in_prefix": "ccef5b7bbd699e2af8a2e345e373b7e986a1db7144b09a20726578e1fc191d48",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/__pycache__/asserts.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1d4117d47acbc624b673ed9f26828a189c2c3e3acc9b1b9d50702b4a6a4622a",
+        "sha256_in_prefix": "f1d4117d47acbc624b673ed9f26828a189c2c3e3acc9b1b9d50702b4a6a4622a",
+        "size_in_bytes": 6139
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/__pycache__/commands.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "857ddfb2f03269eafc3cea92f5e64d3dc52850c2302cad84f08dfae71702c4f8",
+        "sha256_in_prefix": "857ddfb2f03269eafc3cea92f5e64d3dc52850c2302cad84f08dfae71702c4f8",
+        "size_in_bytes": 7320
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/__pycache__/env.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "443506676251cc7d336f5dc2868ea2e2631eae9687a123942f52c8f24b431f6a",
+        "sha256_in_prefix": "443506676251cc7d336f5dc2868ea2e2631eae9687a123942f52c8f24b431f6a",
+        "size_in_bytes": 2608
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/__pycache__/tempdir.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2becae1dac9d2762650e25a64d872670b45af4d7cb55d92f1268acef576a2d2",
+        "sha256_in_prefix": "a2becae1dac9d2762650e25a64d872670b45af4d7cb55d92f1268acef576a2d2",
+        "size_in_bytes": 3050
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/asserts.py",
+        "path_type": "hardlink",
+        "sha256": "e10e289d57e9f2a1412b041836fe7ed91899e43d2aabe3748fee70cae5580a7e",
+        "sha256_in_prefix": "e10e289d57e9f2a1412b041836fe7ed91899e43d2aabe3748fee70cae5580a7e",
+        "size_in_bytes": 6826
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/cli-32.exe",
+        "path_type": "hardlink",
+        "sha256": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "sha256_in_prefix": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "size_in_bytes": 65536
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/cli-64.exe",
+        "path_type": "hardlink",
+        "sha256": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+        "sha256_in_prefix": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+        "size_in_bytes": 74752
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/commands.py",
+        "path_type": "hardlink",
+        "sha256": "46ea87f901947bee26b645204d95842ad50c86323efde8c92299013cb41da730",
+        "sha256_in_prefix": "46ea87f901947bee26b645204d95842ad50c86323efde8c92299013cb41da730",
+        "size_in_bytes": 6792
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/env.py",
+        "path_type": "hardlink",
+        "sha256": "c287366d423057dd3c21dd356a8a239b0f4ee9f88b694d2159ec7a7f459c6c08",
+        "sha256_in_prefix": "c287366d423057dd3c21dd356a8a239b0f4ee9f88b694d2159ec7a7f459c6c08",
+        "size_in_bytes": 2370
+      },
+      {
+        "_path": "lib/python3.9/site-packages/testpath/tempdir.py",
+        "path_type": "hardlink",
+        "sha256": "3d716d924344d4f8e51e105425adbf8a2aa4ce7d7a4ecb1b61abbdda086dd72e",
+        "sha256_in_prefix": "3d716d924344d4f8e51e105425adbf8a2aa4ce7d7a4ecb1b61abbdda086dd72e",
+        "size_in_bytes": 2123
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "925677ec26cb76d10c4f0598afcfd83baf8abcb53566e2e16098eb375eeb9200",
+  "size": 93566,
+  "subdir": "linux-64",
+  "timestamp": 1655908613837,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/testpath-0.6.0-py39h06a4308_0.tar.bz2",
+  "version": "0.6.0"
+}

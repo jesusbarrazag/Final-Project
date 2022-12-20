@@ -1,0 +1,1133 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "multipledispatch",
+    "natsort",
+    "pandas",
+    "pandas-flavor",
+    "python >=3.6",
+    "requests",
+    "scikit-learn",
+    "scipy",
+    "xarray",
+    "xlrd"
+  ],
+  "extracted_package_dir": "/home/barrazaj636/anaconda3/pkgs/pyjanitor-0.23.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/janitor/__init__.py",
+    "lib/python3.9/site-packages/janitor/accessors/__init__.py",
+    "lib/python3.9/site-packages/janitor/accessors/data_description.py",
+    "lib/python3.9/site-packages/janitor/biology.py",
+    "lib/python3.9/site-packages/janitor/chemistry.py",
+    "lib/python3.9/site-packages/janitor/engineering.py",
+    "lib/python3.9/site-packages/janitor/errors.py",
+    "lib/python3.9/site-packages/janitor/finance.py",
+    "lib/python3.9/site-packages/janitor/functions/__init__.py",
+    "lib/python3.9/site-packages/janitor/functions/add_columns.py",
+    "lib/python3.9/site-packages/janitor/functions/also.py",
+    "lib/python3.9/site-packages/janitor/functions/bin_numeric.py",
+    "lib/python3.9/site-packages/janitor/functions/case_when.py",
+    "lib/python3.9/site-packages/janitor/functions/change_type.py",
+    "lib/python3.9/site-packages/janitor/functions/clean_names.py",
+    "lib/python3.9/site-packages/janitor/functions/coalesce.py",
+    "lib/python3.9/site-packages/janitor/functions/collapse_levels.py",
+    "lib/python3.9/site-packages/janitor/functions/complete.py",
+    "lib/python3.9/site-packages/janitor/functions/concatenate_columns.py",
+    "lib/python3.9/site-packages/janitor/functions/conditional_join.py",
+    "lib/python3.9/site-packages/janitor/functions/convert_date.py",
+    "lib/python3.9/site-packages/janitor/functions/count_cumulative_unique.py",
+    "lib/python3.9/site-packages/janitor/functions/currency_column_to_numeric.py",
+    "lib/python3.9/site-packages/janitor/functions/deconcatenate_column.py",
+    "lib/python3.9/site-packages/janitor/functions/drop_constant_columns.py",
+    "lib/python3.9/site-packages/janitor/functions/drop_duplicate_columns.py",
+    "lib/python3.9/site-packages/janitor/functions/dropnotnull.py",
+    "lib/python3.9/site-packages/janitor/functions/encode_categorical.py",
+    "lib/python3.9/site-packages/janitor/functions/expand_column.py",
+    "lib/python3.9/site-packages/janitor/functions/expand_grid.py",
+    "lib/python3.9/site-packages/janitor/functions/factorize_columns.py",
+    "lib/python3.9/site-packages/janitor/functions/fill.py",
+    "lib/python3.9/site-packages/janitor/functions/filter.py",
+    "lib/python3.9/site-packages/janitor/functions/find_replace.py",
+    "lib/python3.9/site-packages/janitor/functions/flag_nulls.py",
+    "lib/python3.9/site-packages/janitor/functions/get_dupes.py",
+    "lib/python3.9/site-packages/janitor/functions/groupby_agg.py",
+    "lib/python3.9/site-packages/janitor/functions/groupby_topk.py",
+    "lib/python3.9/site-packages/janitor/functions/impute.py",
+    "lib/python3.9/site-packages/janitor/functions/jitter.py",
+    "lib/python3.9/site-packages/janitor/functions/join_apply.py",
+    "lib/python3.9/site-packages/janitor/functions/label_encode.py",
+    "lib/python3.9/site-packages/janitor/functions/limit_column_characters.py",
+    "lib/python3.9/site-packages/janitor/functions/min_max_scale.py",
+    "lib/python3.9/site-packages/janitor/functions/move.py",
+    "lib/python3.9/site-packages/janitor/functions/pivot.py",
+    "lib/python3.9/site-packages/janitor/functions/process_text.py",
+    "lib/python3.9/site-packages/janitor/functions/remove_columns.py",
+    "lib/python3.9/site-packages/janitor/functions/remove_empty.py",
+    "lib/python3.9/site-packages/janitor/functions/rename_columns.py",
+    "lib/python3.9/site-packages/janitor/functions/reorder_columns.py",
+    "lib/python3.9/site-packages/janitor/functions/round_to_fraction.py",
+    "lib/python3.9/site-packages/janitor/functions/row_to_names.py",
+    "lib/python3.9/site-packages/janitor/functions/select_columns.py",
+    "lib/python3.9/site-packages/janitor/functions/shuffle.py",
+    "lib/python3.9/site-packages/janitor/functions/sort_column_value_order.py",
+    "lib/python3.9/site-packages/janitor/functions/sort_naturally.py",
+    "lib/python3.9/site-packages/janitor/functions/take_first.py",
+    "lib/python3.9/site-packages/janitor/functions/then.py",
+    "lib/python3.9/site-packages/janitor/functions/to_datetime.py",
+    "lib/python3.9/site-packages/janitor/functions/toset.py",
+    "lib/python3.9/site-packages/janitor/functions/transform_columns.py",
+    "lib/python3.9/site-packages/janitor/functions/truncate_datetime.py",
+    "lib/python3.9/site-packages/janitor/functions/update_where.py",
+    "lib/python3.9/site-packages/janitor/functions/utils.py",
+    "lib/python3.9/site-packages/janitor/io.py",
+    "lib/python3.9/site-packages/janitor/math.py",
+    "lib/python3.9/site-packages/janitor/ml.py",
+    "lib/python3.9/site-packages/janitor/spark/__init__.py",
+    "lib/python3.9/site-packages/janitor/spark/backend.py",
+    "lib/python3.9/site-packages/janitor/spark/functions.py",
+    "lib/python3.9/site-packages/janitor/testing_utils/__init__.py",
+    "lib/python3.9/site-packages/janitor/testing_utils/date_data.py",
+    "lib/python3.9/site-packages/janitor/testing_utils/strategies.py",
+    "lib/python3.9/site-packages/janitor/timeseries.py",
+    "lib/python3.9/site-packages/janitor/utils.py",
+    "lib/python3.9/site-packages/janitor/xarray/__init__.py",
+    "lib/python3.9/site-packages/janitor/xarray/functions.py",
+    "lib/python3.9/site-packages/pyjanitor-0.23.1.dist-info/AUTHORS.md",
+    "lib/python3.9/site-packages/pyjanitor-0.23.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/pyjanitor-0.23.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/pyjanitor-0.23.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/pyjanitor-0.23.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/pyjanitor-0.23.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/pyjanitor-0.23.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/pyjanitor-0.23.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/pyjanitor-0.23.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/janitor/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/accessors/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/accessors/__pycache__/data_description.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/__pycache__/biology.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/__pycache__/chemistry.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/__pycache__/engineering.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/__pycache__/errors.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/__pycache__/finance.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/add_columns.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/also.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/bin_numeric.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/case_when.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/change_type.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/clean_names.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/coalesce.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/collapse_levels.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/complete.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/concatenate_columns.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/conditional_join.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/convert_date.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/count_cumulative_unique.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/currency_column_to_numeric.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/deconcatenate_column.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/drop_constant_columns.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/drop_duplicate_columns.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/dropnotnull.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/encode_categorical.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/expand_column.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/expand_grid.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/factorize_columns.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/fill.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/filter.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/find_replace.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/flag_nulls.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/get_dupes.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/groupby_agg.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/groupby_topk.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/impute.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/jitter.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/join_apply.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/label_encode.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/limit_column_characters.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/min_max_scale.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/move.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/pivot.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/process_text.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/remove_columns.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/remove_empty.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/rename_columns.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/reorder_columns.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/round_to_fraction.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/row_to_names.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/select_columns.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/shuffle.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/sort_column_value_order.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/sort_naturally.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/take_first.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/then.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/to_datetime.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/toset.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/transform_columns.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/truncate_datetime.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/update_where.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/functions/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/__pycache__/io.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/__pycache__/math.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/__pycache__/ml.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/spark/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/spark/__pycache__/backend.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/spark/__pycache__/functions.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/testing_utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/testing_utils/__pycache__/date_data.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/testing_utils/__pycache__/strategies.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/__pycache__/timeseries.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/xarray/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/janitor/xarray/__pycache__/functions.cpython-39.pyc"
+  ],
+  "fn": "pyjanitor-0.23.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/barrazaj636/anaconda3/pkgs/pyjanitor-0.23.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a611c26e0e1278938b42ed231f1d57cc",
+  "name": "pyjanitor",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/barrazaj636/anaconda3/pkgs/pyjanitor-0.23.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/janitor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "80b5563c476a25c9fbca601cef96902d542b0c1651a19037a89a3702cf11e95d",
+        "sha256_in_prefix": "80b5563c476a25c9fbca601cef96902d542b0c1651a19037a89a3702cf11e95d",
+        "size_in_bytes": 650
+      },
+      {
+        "_path": "site-packages/janitor/accessors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f005220d8bdc67aef181ea94fc427ff89d6018c82556c98833bf5cf903b54015",
+        "sha256_in_prefix": "f005220d8bdc67aef181ea94fc427ff89d6018c82556c98833bf5cf903b54015",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/janitor/accessors/data_description.py",
+        "path_type": "hardlink",
+        "sha256": "4b0a93e1815a76a33aed7ad536baba70761113e551214209c177e452a6049022",
+        "sha256_in_prefix": "4b0a93e1815a76a33aed7ad536baba70761113e551214209c177e452a6049022",
+        "size_in_bytes": 2077
+      },
+      {
+        "_path": "site-packages/janitor/biology.py",
+        "path_type": "hardlink",
+        "sha256": "90db8f246ffe5c5209cc2b9d8e787d5cd21d06aac83891441bd4be948d85b27d",
+        "sha256_in_prefix": "90db8f246ffe5c5209cc2b9d8e787d5cd21d06aac83891441bd4be948d85b27d",
+        "size_in_bytes": 2309
+      },
+      {
+        "_path": "site-packages/janitor/chemistry.py",
+        "path_type": "hardlink",
+        "sha256": "a243239876371837d1b71c2ff5c13edc21adc8a7f1fae4f2a6c9bb2cb67d8b63",
+        "sha256_in_prefix": "a243239876371837d1b71c2ff5c13edc21adc8a7f1fae4f2a6c9bb2cb67d8b63",
+        "size_in_bytes": 14077
+      },
+      {
+        "_path": "site-packages/janitor/engineering.py",
+        "path_type": "hardlink",
+        "sha256": "b7c98f1f9f40497ab8eaf15cb00d902247349f88042c94a603f99392296f43f3",
+        "sha256_in_prefix": "b7c98f1f9f40497ab8eaf15cb00d902247349f88042c94a603f99392296f43f3",
+        "size_in_bytes": 2921
+      },
+      {
+        "_path": "site-packages/janitor/errors.py",
+        "path_type": "hardlink",
+        "sha256": "75d0dc58487a17a01b80bc839085700a7e4e013672b45fe9e30719a170be6401",
+        "sha256_in_prefix": "75d0dc58487a17a01b80bc839085700a7e4e013672b45fe9e30719a170be6401",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "site-packages/janitor/finance.py",
+        "path_type": "hardlink",
+        "sha256": "c2e45a90378354e0741f47f3077041a4f327e0952fa08058bfd35273ff4e5c5a",
+        "sha256_in_prefix": "c2e45a90378354e0741f47f3077041a4f327e0952fa08058bfd35273ff4e5c5a",
+        "size_in_bytes": 21921
+      },
+      {
+        "_path": "site-packages/janitor/functions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "459d30d241d4e2f7b9e582f5a1e7b6c56c858c89efea636d3668e02e8cdf6b8d",
+        "sha256_in_prefix": "459d30d241d4e2f7b9e582f5a1e7b6c56c858c89efea636d3668e02e8cdf6b8d",
+        "size_in_bytes": 3046
+      },
+      {
+        "_path": "site-packages/janitor/functions/add_columns.py",
+        "path_type": "hardlink",
+        "sha256": "3a8d8011619a08fef58cd4c63277f19dce2be78bb0f9a6efd1e5682f5ad2ecf0",
+        "sha256_in_prefix": "3a8d8011619a08fef58cd4c63277f19dce2be78bb0f9a6efd1e5682f5ad2ecf0",
+        "size_in_bytes": 5443
+      },
+      {
+        "_path": "site-packages/janitor/functions/also.py",
+        "path_type": "hardlink",
+        "sha256": "b72d246abd3b37b9b9fa4c94454996d8cfd3a621fa2ee90bb626c8230745050b",
+        "sha256_in_prefix": "b72d246abd3b37b9b9fa4c94454996d8cfd3a621fa2ee90bb626c8230745050b",
+        "size_in_bytes": 1591
+      },
+      {
+        "_path": "site-packages/janitor/functions/bin_numeric.py",
+        "path_type": "hardlink",
+        "sha256": "7f37453c9e465ec8ad6a1ba6091965ad98a28ea4827aa9d4751a9e54d1962837",
+        "sha256_in_prefix": "7f37453c9e465ec8ad6a1ba6091965ad98a28ea4827aa9d4751a9e54d1962837",
+        "size_in_bytes": 2224
+      },
+      {
+        "_path": "site-packages/janitor/functions/case_when.py",
+        "path_type": "hardlink",
+        "sha256": "f4f4de4fa840106312ef9dd1144b201c6680701f3d4f44e1721ae32f101e0701",
+        "sha256_in_prefix": "f4f4de4fa840106312ef9dd1144b201c6680701f3d4f44e1721ae32f101e0701",
+        "size_in_bytes": 6756
+      },
+      {
+        "_path": "site-packages/janitor/functions/change_type.py",
+        "path_type": "hardlink",
+        "sha256": "12b63dd4c02935e2c7e3db649b25009a0958fb502e48bcf43950a6a27ed2172a",
+        "sha256_in_prefix": "12b63dd4c02935e2c7e3db649b25009a0958fb502e48bcf43950a6a27ed2172a",
+        "size_in_bytes": 2378
+      },
+      {
+        "_path": "site-packages/janitor/functions/clean_names.py",
+        "path_type": "hardlink",
+        "sha256": "f042acf57b4ef0213f291abcb2b658a4b600190f63c6c52c886b5b86b2a60b50",
+        "sha256_in_prefix": "f042acf57b4ef0213f291abcb2b658a4b600190f63c6c52c886b5b86b2a60b50",
+        "size_in_bytes": 7164
+      },
+      {
+        "_path": "site-packages/janitor/functions/coalesce.py",
+        "path_type": "hardlink",
+        "sha256": "c3b389d70a396ffbbfbb6f1e15e7887e113fbfdb716f9a222d50bff15c7ff71c",
+        "sha256_in_prefix": "c3b389d70a396ffbbfbb6f1e15e7887e113fbfdb716f9a222d50bff15c7ff71c",
+        "size_in_bytes": 3707
+      },
+      {
+        "_path": "site-packages/janitor/functions/collapse_levels.py",
+        "path_type": "hardlink",
+        "sha256": "766e5bf3353ec55f879acb3ff495a9984425421ae1450d1584f2d4c10d06c229",
+        "sha256_in_prefix": "766e5bf3353ec55f879acb3ff495a9984425421ae1450d1584f2d4c10d06c229",
+        "size_in_bytes": 2858
+      },
+      {
+        "_path": "site-packages/janitor/functions/complete.py",
+        "path_type": "hardlink",
+        "sha256": "c7a8693c3d6b7b0810375fd701dad1d0f058b5ef222de1a97930b786d6cab86b",
+        "sha256_in_prefix": "c7a8693c3d6b7b0810375fd701dad1d0f058b5ef222de1a97930b786d6cab86b",
+        "size_in_bytes": 16400
+      },
+      {
+        "_path": "site-packages/janitor/functions/concatenate_columns.py",
+        "path_type": "hardlink",
+        "sha256": "6f31c8a368c8ca7b6bc76ed584bfab8d820ed26013e509ae0733c00ee0676fe3",
+        "sha256_in_prefix": "6f31c8a368c8ca7b6bc76ed584bfab8d820ed26013e509ae0733c00ee0676fe3",
+        "size_in_bytes": 2007
+      },
+      {
+        "_path": "site-packages/janitor/functions/conditional_join.py",
+        "path_type": "hardlink",
+        "sha256": "0cb039d906a97a2339698ec5aaa01de53baf5658a2cf047649d06d0c3e60c65d",
+        "sha256_in_prefix": "0cb039d906a97a2339698ec5aaa01de53baf5658a2cf047649d06d0c3e60c65d",
+        "size_in_bytes": 41449
+      },
+      {
+        "_path": "site-packages/janitor/functions/convert_date.py",
+        "path_type": "hardlink",
+        "sha256": "ffac680008c63057e9df58e8d937d6344608f6cf4f1139bfcbb935cb755e94d3",
+        "sha256_in_prefix": "ffac680008c63057e9df58e8d937d6344608f6cf4f1139bfcbb935cb755e94d3",
+        "size_in_bytes": 4083
+      },
+      {
+        "_path": "site-packages/janitor/functions/count_cumulative_unique.py",
+        "path_type": "hardlink",
+        "sha256": "84be31b04ff6faec40f6803e5fe0d6b8ee4cc51478371351823e2da633a51958",
+        "sha256_in_prefix": "84be31b04ff6faec40f6803e5fe0d6b8ee4cc51478371351823e2da633a51958",
+        "size_in_bytes": 3931
+      },
+      {
+        "_path": "site-packages/janitor/functions/currency_column_to_numeric.py",
+        "path_type": "hardlink",
+        "sha256": "bd3fa1cf3d4c37d964e4e0920fd3cd863df88f809a4d87eb6b8ed4a87745dfbd",
+        "sha256_in_prefix": "bd3fa1cf3d4c37d964e4e0920fd3cd863df88f809a4d87eb6b8ed4a87745dfbd",
+        "size_in_bytes": 6765
+      },
+      {
+        "_path": "site-packages/janitor/functions/deconcatenate_column.py",
+        "path_type": "hardlink",
+        "sha256": "38eac15601e8c0e9f7fe049f9f15e9f6ab4327874997cd32e97e4449360d9612",
+        "sha256_in_prefix": "38eac15601e8c0e9f7fe049f9f15e9f6ab4327874997cd32e97e4449360d9612",
+        "size_in_bytes": 5452
+      },
+      {
+        "_path": "site-packages/janitor/functions/drop_constant_columns.py",
+        "path_type": "hardlink",
+        "sha256": "49a1456e429b78544fd786482c3475c107d2c24b7b3e19dde36e9ddc507f3af5",
+        "sha256_in_prefix": "49a1456e429b78544fd786482c3475c107d2c24b7b3e19dde36e9ddc507f3af5",
+        "size_in_bytes": 1347
+      },
+      {
+        "_path": "site-packages/janitor/functions/drop_duplicate_columns.py",
+        "path_type": "hardlink",
+        "sha256": "45d89b22746c28c07f09c9a611a6e7a3276251924dc6e19efeccb26de7267e23",
+        "sha256_in_prefix": "45d89b22746c28c07f09c9a611a6e7a3276251924dc6e19efeccb26de7267e23",
+        "size_in_bytes": 1747
+      },
+      {
+        "_path": "site-packages/janitor/functions/dropnotnull.py",
+        "path_type": "hardlink",
+        "sha256": "0f215d380f97f2dd78a502e9e027b05db9124e01488f18e463710621f5f5fe85",
+        "sha256_in_prefix": "0f215d380f97f2dd78a502e9e027b05db9124e01488f18e463710621f5f5fe85",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "site-packages/janitor/functions/encode_categorical.py",
+        "path_type": "hardlink",
+        "sha256": "8090716845945f4ab7b273770369679c7b7df50cc0e400827538e72e049699fc",
+        "sha256_in_prefix": "8090716845945f4ab7b273770369679c7b7df50cc0e400827538e72e049699fc",
+        "size_in_bytes": 9429
+      },
+      {
+        "_path": "site-packages/janitor/functions/expand_column.py",
+        "path_type": "hardlink",
+        "sha256": "1eeea4533aaa6d18c346874b1c3cd4126a3f6f7cc36f81878e29437d393936ef",
+        "sha256_in_prefix": "1eeea4533aaa6d18c346874b1c3cd4126a3f6f7cc36f81878e29437d393936ef",
+        "size_in_bytes": 2481
+      },
+      {
+        "_path": "site-packages/janitor/functions/expand_grid.py",
+        "path_type": "hardlink",
+        "sha256": "efc1e1bf8225fdb3fa37ccd06249c974f34a7340c646adbfa5d1ee14002952dc",
+        "sha256_in_prefix": "efc1e1bf8225fdb3fa37ccd06249c974f34a7340c646adbfa5d1ee14002952dc",
+        "size_in_bytes": 3292
+      },
+      {
+        "_path": "site-packages/janitor/functions/factorize_columns.py",
+        "path_type": "hardlink",
+        "sha256": "80edb609c276693549e890e1464465b303f8ba65f804ec480bec86ae871cce5e",
+        "sha256_in_prefix": "80edb609c276693549e890e1464465b303f8ba65f804ec480bec86ae871cce5e",
+        "size_in_bytes": 1974
+      },
+      {
+        "_path": "site-packages/janitor/functions/fill.py",
+        "path_type": "hardlink",
+        "sha256": "633c617af18fc167fddc865bb127405d06f2ba85f1935c8619dc28053f679469",
+        "sha256_in_prefix": "633c617af18fc167fddc865bb127405d06f2ba85f1935c8619dc28053f679469",
+        "size_in_bytes": 5891
+      },
+      {
+        "_path": "site-packages/janitor/functions/filter.py",
+        "path_type": "hardlink",
+        "sha256": "0902c4170b4c12863c2c1c92257f37645f1189dc09eb241d75186acd26256fa5",
+        "sha256_in_prefix": "0902c4170b4c12863c2c1c92257f37645f1189dc09eb241d75186acd26256fa5",
+        "size_in_bytes": 10665
+      },
+      {
+        "_path": "site-packages/janitor/functions/find_replace.py",
+        "path_type": "hardlink",
+        "sha256": "6a0ce781b588f4a484299fd4e0d6aac79b32034f40ff831fd1d272ef3bff3b77",
+        "sha256_in_prefix": "6a0ce781b588f4a484299fd4e0d6aac79b32034f40ff831fd1d272ef3bff3b77",
+        "size_in_bytes": 5735
+      },
+      {
+        "_path": "site-packages/janitor/functions/flag_nulls.py",
+        "path_type": "hardlink",
+        "sha256": "caa4c0652540bfc2256182053f743447fc595a98552c23d9841e91cb1a082be4",
+        "sha256_in_prefix": "caa4c0652540bfc2256182053f743447fc595a98552c23d9841e91cb1a082be4",
+        "size_in_bytes": 2446
+      },
+      {
+        "_path": "site-packages/janitor/functions/get_dupes.py",
+        "path_type": "hardlink",
+        "sha256": "6958c6f1de78d38dc31287c9b3c4eeb2817406a28b25515c952a30dfd100996c",
+        "sha256_in_prefix": "6958c6f1de78d38dc31287c9b3c4eeb2817406a28b25515c952a30dfd100996c",
+        "size_in_bytes": 2342
+      },
+      {
+        "_path": "site-packages/janitor/functions/groupby_agg.py",
+        "path_type": "hardlink",
+        "sha256": "0bc5846c3f3c1648de7031f3bd2470c6bdbb2372edc2af6a37395964984137d2",
+        "sha256_in_prefix": "0bc5846c3f3c1648de7031f3bd2470c6bdbb2372edc2af6a37395964984137d2",
+        "size_in_bytes": 2729
+      },
+      {
+        "_path": "site-packages/janitor/functions/groupby_topk.py",
+        "path_type": "hardlink",
+        "sha256": "204b630c8c65ab3bbb069a2a70e231bece161104c5caf694643e03fe960c86a5",
+        "sha256_in_prefix": "204b630c8c65ab3bbb069a2a70e231bece161104c5caf694643e03fe960c86a5",
+        "size_in_bytes": 3576
+      },
+      {
+        "_path": "site-packages/janitor/functions/impute.py",
+        "path_type": "hardlink",
+        "sha256": "6f8b366d1911af29728287881e359f7be30ff3374313abc65ef699ad3b332f21",
+        "sha256_in_prefix": "6f8b366d1911af29728287881e359f7be30ff3374313abc65ef699ad3b332f21",
+        "size_in_bytes": 4241
+      },
+      {
+        "_path": "site-packages/janitor/functions/jitter.py",
+        "path_type": "hardlink",
+        "sha256": "b55acc457d9d418577fda239bf501eceddf1b235c7527fbe5fb6e4895be4b921",
+        "sha256_in_prefix": "b55acc457d9d418577fda239bf501eceddf1b235c7527fbe5fb6e4895be4b921",
+        "size_in_bytes": 3814
+      },
+      {
+        "_path": "site-packages/janitor/functions/join_apply.py",
+        "path_type": "hardlink",
+        "sha256": "435f308d282fb1f1ae21dcd1121fcf46c5562164756900b118da8ecfad7aa7fc",
+        "sha256_in_prefix": "435f308d282fb1f1ae21dcd1121fcf46c5562164756900b118da8ecfad7aa7fc",
+        "size_in_bytes": 2057
+      },
+      {
+        "_path": "site-packages/janitor/functions/label_encode.py",
+        "path_type": "hardlink",
+        "sha256": "90573b52481c40820b2ae414fda03b79f515cd73e5015cd64d2461e394e8d8ed",
+        "sha256_in_prefix": "90573b52481c40820b2ae414fda03b79f515cd73e5015cd64d2461e394e8d8ed",
+        "size_in_bytes": 2227
+      },
+      {
+        "_path": "site-packages/janitor/functions/limit_column_characters.py",
+        "path_type": "hardlink",
+        "sha256": "6350ba675f8b9c735a1c1530155645ce075029f7fa9d65e82319912b9a09aab4",
+        "sha256_in_prefix": "6350ba675f8b9c735a1c1530155645ce075029f7fa9d65e82319912b9a09aab4",
+        "size_in_bytes": 3388
+      },
+      {
+        "_path": "site-packages/janitor/functions/min_max_scale.py",
+        "path_type": "hardlink",
+        "sha256": "955408b9c1a8798a79c0aad68eae00c793dc68bbb55f4d8c96e4c52b6b2fac59",
+        "sha256_in_prefix": "955408b9c1a8798a79c0aad68eae00c793dc68bbb55f4d8c96e4c52b6b2fac59",
+        "size_in_bytes": 3594
+      },
+      {
+        "_path": "site-packages/janitor/functions/move.py",
+        "path_type": "hardlink",
+        "sha256": "d4b13d03928b0f2e4b9b6753c3fd461be49df58958649f8cb8e1e8611a894c12",
+        "sha256_in_prefix": "d4b13d03928b0f2e4b9b6753c3fd461be49df58958649f8cb8e1e8611a894c12",
+        "size_in_bytes": 3349
+      },
+      {
+        "_path": "site-packages/janitor/functions/pivot.py",
+        "path_type": "hardlink",
+        "sha256": "8aed580b98e8f5a8234f513399a760d3d56e019507216f59e9e8c5213bb8055c",
+        "sha256_in_prefix": "8aed580b98e8f5a8234f513399a760d3d56e019507216f59e9e8c5213bb8055c",
+        "size_in_bytes": 50165
+      },
+      {
+        "_path": "site-packages/janitor/functions/process_text.py",
+        "path_type": "hardlink",
+        "sha256": "3d43b44737233acde5db7023d754a0e34223fa5813d65508e6c480561e384a0b",
+        "sha256_in_prefix": "3d43b44737233acde5db7023d754a0e34223fa5813d65508e6c480561e384a0b",
+        "size_in_bytes": 3031
+      },
+      {
+        "_path": "site-packages/janitor/functions/remove_columns.py",
+        "path_type": "hardlink",
+        "sha256": "a1de7c1ea79bbbc377bf6e8a61ee38636f0af1ca7b023a5f2625db403e60a7d0",
+        "sha256_in_prefix": "a1de7c1ea79bbbc377bf6e8a61ee38636f0af1ca7b023a5f2625db403e60a7d0",
+        "size_in_bytes": 1074
+      },
+      {
+        "_path": "site-packages/janitor/functions/remove_empty.py",
+        "path_type": "hardlink",
+        "sha256": "da5c64f83a58faf40ec61475ae22ad1838197f3b7b591ac6c3fd1745da74360d",
+        "sha256_in_prefix": "da5c64f83a58faf40ec61475ae22ad1838197f3b7b591ac6c3fd1745da74360d",
+        "size_in_bytes": 1351
+      },
+      {
+        "_path": "site-packages/janitor/functions/rename_columns.py",
+        "path_type": "hardlink",
+        "sha256": "8eac51dbab2090b24f6f5d9e9800f45fc6bfb07084bfb94764bd56edddaf6bca",
+        "sha256_in_prefix": "8eac51dbab2090b24f6f5d9e9800f45fc6bfb07084bfb94764bd56edddaf6bca",
+        "size_in_bytes": 3215
+      },
+      {
+        "_path": "site-packages/janitor/functions/reorder_columns.py",
+        "path_type": "hardlink",
+        "sha256": "50daba7137d04e410c0dce8e4d10433986c52fe6ff6bb1e4d79c28f28321837b",
+        "sha256_in_prefix": "50daba7137d04e410c0dce8e4d10433986c52fe6ff6bb1e4d79c28f28321837b",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "site-packages/janitor/functions/round_to_fraction.py",
+        "path_type": "hardlink",
+        "sha256": "9add7bf1fddb722d49d335c6815b3f34ee9a344211fb1b3078b70fd9eb33da10",
+        "sha256_in_prefix": "9add7bf1fddb722d49d335c6815b3f34ee9a344211fb1b3078b70fd9eb33da10",
+        "size_in_bytes": 2062
+      },
+      {
+        "_path": "site-packages/janitor/functions/row_to_names.py",
+        "path_type": "hardlink",
+        "sha256": "0c0ae51ed51ae49af7dff14a3bebbc3459d59dd7c369666094f527a3cf2d67c9",
+        "sha256_in_prefix": "0c0ae51ed51ae49af7dff14a3bebbc3459d59dd7c369666094f527a3cf2d67c9",
+        "size_in_bytes": 2908
+      },
+      {
+        "_path": "site-packages/janitor/functions/select_columns.py",
+        "path_type": "hardlink",
+        "sha256": "7635d3aba04044db0da5e65152734233c9093fe22f46b62a8ee9265ec8890e27",
+        "sha256_in_prefix": "7635d3aba04044db0da5e65152734233c9093fe22f46b62a8ee9265ec8890e27",
+        "size_in_bytes": 2357
+      },
+      {
+        "_path": "site-packages/janitor/functions/shuffle.py",
+        "path_type": "hardlink",
+        "sha256": "c87fdeaf4ab84294ba5c6e7971aaf58bcc0199e25830d8348a7124dfc32ac10a",
+        "sha256_in_prefix": "c87fdeaf4ab84294ba5c6e7971aaf58bcc0199e25830d8348a7124dfc32ac10a",
+        "size_in_bytes": 1356
+      },
+      {
+        "_path": "site-packages/janitor/functions/sort_column_value_order.py",
+        "path_type": "hardlink",
+        "sha256": "7b88ebcf4172ea453a6aa658d9abe9dc51094297ddca7a008c07f3babdf2cc94",
+        "sha256_in_prefix": "7b88ebcf4172ea453a6aa658d9abe9dc51094297ddca7a008c07f3babdf2cc94",
+        "size_in_bytes": 2810
+      },
+      {
+        "_path": "site-packages/janitor/functions/sort_naturally.py",
+        "path_type": "hardlink",
+        "sha256": "5cebf9ef49295ba72db853e1fa42e98661a9707844eb6242646f1bb08a5b6101",
+        "sha256_in_prefix": "5cebf9ef49295ba72db853e1fa42e98661a9707844eb6242646f1bb08a5b6101",
+        "size_in_bytes": 2273
+      },
+      {
+        "_path": "site-packages/janitor/functions/take_first.py",
+        "path_type": "hardlink",
+        "sha256": "d1b4be7ccfb210f1e8a183c2b4dc0982f93b451850aa9cb1213a69f1dd6cde41",
+        "sha256_in_prefix": "d1b4be7ccfb210f1e8a183c2b4dc0982f93b451850aa9cb1213a69f1dd6cde41",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "site-packages/janitor/functions/then.py",
+        "path_type": "hardlink",
+        "sha256": "11b0e7f600d4adce6e88b8dee206105f8aa4fdad9aadd51be294af4f0043dfe5",
+        "sha256_in_prefix": "11b0e7f600d4adce6e88b8dee206105f8aa4fdad9aadd51be294af4f0043dfe5",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "site-packages/janitor/functions/to_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "22c617b4c39b0e5c36b5b0089bc0a73684626f659d80506095643097b8104df4",
+        "sha256_in_prefix": "22c617b4c39b0e5c36b5b0089bc0a73684626f659d80506095643097b8104df4",
+        "size_in_bytes": 1429
+      },
+      {
+        "_path": "site-packages/janitor/functions/toset.py",
+        "path_type": "hardlink",
+        "sha256": "210909861d1c1a6c556a0c9adec5d00010ff230c1ee5654762141d0853231f25",
+        "sha256_in_prefix": "210909861d1c1a6c556a0c9adec5d00010ff230c1ee5654762141d0853231f25",
+        "size_in_bytes": 780
+      },
+      {
+        "_path": "site-packages/janitor/functions/transform_columns.py",
+        "path_type": "hardlink",
+        "sha256": "0089d041af13503a07e6765ba57be7fffba938980cf5c52a55e6d729b40fa86e",
+        "sha256_in_prefix": "0089d041af13503a07e6765ba57be7fffba938980cf5c52a55e6d729b40fa86e",
+        "size_in_bytes": 8293
+      },
+      {
+        "_path": "site-packages/janitor/functions/truncate_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "01bf079e58e3db1466e01c35c6aa77c51ebc5f055dfa9c4ebc4677e3d3556a2c",
+        "sha256_in_prefix": "01bf079e58e3db1466e01c35c6aa77c51ebc5f055dfa9c4ebc4677e3d3556a2c",
+        "size_in_bytes": 3238
+      },
+      {
+        "_path": "site-packages/janitor/functions/update_where.py",
+        "path_type": "hardlink",
+        "sha256": "9f0aca8e9f93ff1d5ceaa0a55ef25a945b8dbbb275be7425eb926cbaf75b3dc6",
+        "sha256_in_prefix": "9f0aca8e9f93ff1d5ceaa0a55ef25a945b8dbbb275be7425eb926cbaf75b3dc6",
+        "size_in_bytes": 2315
+      },
+      {
+        "_path": "site-packages/janitor/functions/utils.py",
+        "path_type": "hardlink",
+        "sha256": "70ea324902e4356ab7256811063dc6799918ab0f02acc929374265c80ecf0781",
+        "sha256_in_prefix": "70ea324902e4356ab7256811063dc6799918ab0f02acc929374265c80ecf0781",
+        "size_in_bytes": 13986
+      },
+      {
+        "_path": "site-packages/janitor/io.py",
+        "path_type": "hardlink",
+        "sha256": "e0c5e6de75df5917bb890f80a62f5a773dce3ace1e673de244f9aefa9a21d840",
+        "sha256_in_prefix": "e0c5e6de75df5917bb890f80a62f5a773dce3ace1e673de244f9aefa9a21d840",
+        "size_in_bytes": 20138
+      },
+      {
+        "_path": "site-packages/janitor/math.py",
+        "path_type": "hardlink",
+        "sha256": "69f21c81ef985b4464c939bc1c19e3c9f432a49ad7f8fc30894b933d12c6de30",
+        "sha256_in_prefix": "69f21c81ef985b4464c939bc1c19e3c9f432a49ad7f8fc30894b933d12c6de30",
+        "size_in_bytes": 9486
+      },
+      {
+        "_path": "site-packages/janitor/ml.py",
+        "path_type": "hardlink",
+        "sha256": "486ec47b52e1128700b0b017ac47b7687d59d1c08d5221b8a3bc6c8e5ceaeb75",
+        "sha256_in_prefix": "486ec47b52e1128700b0b017ac47b7687d59d1c08d5221b8a3bc6c8e5ceaeb75",
+        "size_in_bytes": 2315
+      },
+      {
+        "_path": "site-packages/janitor/spark/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d70967b348e0f43e9c0d22ed5d21e15a02ce9ddafdaceda432149415061e3fe6",
+        "sha256_in_prefix": "d70967b348e0f43e9c0d22ed5d21e15a02ce9ddafdaceda432149415061e3fe6",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "site-packages/janitor/spark/backend.py",
+        "path_type": "hardlink",
+        "sha256": "efa59650967fcab98b66577cd625f059664dd94a858ba8aa72d6d616f8109445",
+        "sha256_in_prefix": "efa59650967fcab98b66577cd625f059664dd94a858ba8aa72d6d616f8109445",
+        "size_in_bytes": 2662
+      },
+      {
+        "_path": "site-packages/janitor/spark/functions.py",
+        "path_type": "hardlink",
+        "sha256": "9bf8f86f27a062e8771f127a6c9ca3db81d2513d2c9f2a1f2d0aca414fdbd4b0",
+        "sha256_in_prefix": "9bf8f86f27a062e8771f127a6c9ca3db81d2513d2c9f2a1f2d0aca414fdbd4b0",
+        "size_in_bytes": 5198
+      },
+      {
+        "_path": "site-packages/janitor/testing_utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/janitor/testing_utils/date_data.py",
+        "path_type": "hardlink",
+        "sha256": "be47eb42e3631e52c9a134256af1c4110426d60ebbb92cf52f1dd831ad4f647a",
+        "sha256_in_prefix": "be47eb42e3631e52c9a134256af1c4110426d60ebbb92cf52f1dd831ad4f647a",
+        "size_in_bytes": 41016
+      },
+      {
+        "_path": "site-packages/janitor/testing_utils/strategies.py",
+        "path_type": "hardlink",
+        "sha256": "0c67d22aaea48159f7099b65378b57b351f2cebaad7632e8c2f65b5900549de2",
+        "sha256_in_prefix": "0c67d22aaea48159f7099b65378b57b351f2cebaad7632e8c2f65b5900549de2",
+        "size_in_bytes": 2888
+      },
+      {
+        "_path": "site-packages/janitor/timeseries.py",
+        "path_type": "hardlink",
+        "sha256": "4a8c44c19a6b5921369cd61b831a053c88f866717bc406f5d171dcccd6303d02",
+        "sha256_in_prefix": "4a8c44c19a6b5921369cd61b831a053c88f866717bc406f5d171dcccd6303d02",
+        "size_in_bytes": 13993
+      },
+      {
+        "_path": "site-packages/janitor/utils.py",
+        "path_type": "hardlink",
+        "sha256": "ba2b8b289f4947aa9fa75a3b9fabdc60cdbe0c5e32f18078d3785d44b193644f",
+        "sha256_in_prefix": "ba2b8b289f4947aa9fa75a3b9fabdc60cdbe0c5e32f18078d3785d44b193644f",
+        "size_in_bytes": 12944
+      },
+      {
+        "_path": "site-packages/janitor/xarray/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d70967b348e0f43e9c0d22ed5d21e15a02ce9ddafdaceda432149415061e3fe6",
+        "sha256_in_prefix": "d70967b348e0f43e9c0d22ed5d21e15a02ce9ddafdaceda432149415061e3fe6",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "site-packages/janitor/xarray/functions.py",
+        "path_type": "hardlink",
+        "sha256": "0bfc2cedb01e656d1fc0051d8a765aaece23a03c1153db7bd3c675305b53d4b1",
+        "sha256_in_prefix": "0bfc2cedb01e656d1fc0051d8a765aaece23a03c1153db7bd3c675305b53d4b1",
+        "size_in_bytes": 5143
+      },
+      {
+        "_path": "site-packages/pyjanitor-0.23.1.dist-info/AUTHORS.md",
+        "path_type": "hardlink",
+        "sha256": "c1bf96a7512edd51b18a71d559b2d57030ff0e014279c8eea521ae16f7dcc479",
+        "sha256_in_prefix": "c1bf96a7512edd51b18a71d559b2d57030ff0e014279c8eea521ae16f7dcc479",
+        "size_in_bytes": 13854
+      },
+      {
+        "_path": "site-packages/pyjanitor-0.23.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyjanitor-0.23.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "13313918f2e99c45db42ef385120176d831cd5886de8614feb9c6722e22fb744",
+        "sha256_in_prefix": "13313918f2e99c45db42ef385120176d831cd5886de8614feb9c6722e22fb744",
+        "size_in_bytes": 1079
+      },
+      {
+        "_path": "site-packages/pyjanitor-0.23.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e8565d8848b225dc87c0f5be3a1d284c3e3de6048cbf3d0ec4e9d89a870f7405",
+        "sha256_in_prefix": "e8565d8848b225dc87c0f5be3a1d284c3e3de6048cbf3d0ec4e9d89a870f7405",
+        "size_in_bytes": 2680
+      },
+      {
+        "_path": "site-packages/pyjanitor-0.23.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7fca04f25496108bcfa520d0a0a7f479b937febd8ab9253821b60901d69da46a",
+        "sha256_in_prefix": "7fca04f25496108bcfa520d0a0a7f479b937febd8ab9253821b60901d69da46a",
+        "size_in_bytes": 12342
+      },
+      {
+        "_path": "site-packages/pyjanitor-0.23.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyjanitor-0.23.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pyjanitor-0.23.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5e66f661e98a946d2977fec6f8a9652e4f5039ee785ac488a1aa40d0131b6692",
+        "sha256_in_prefix": "5e66f661e98a946d2977fec6f8a9652e4f5039ee785ac488a1aa40d0131b6692",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/pyjanitor-0.23.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fb290795530a9adc285ec769122cf1f589b9d341deaf735fb1db42bd1849a420",
+        "sha256_in_prefix": "fb290795530a9adc285ec769122cf1f589b9d341deaf735fb1db42bd1849a420",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/accessors/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/accessors/__pycache__/data_description.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/__pycache__/biology.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/__pycache__/chemistry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/__pycache__/engineering.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/__pycache__/errors.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/__pycache__/finance.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/add_columns.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/also.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/bin_numeric.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/case_when.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/change_type.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/clean_names.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/coalesce.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/collapse_levels.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/complete.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/concatenate_columns.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/conditional_join.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/convert_date.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/count_cumulative_unique.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/currency_column_to_numeric.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/deconcatenate_column.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/drop_constant_columns.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/drop_duplicate_columns.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/dropnotnull.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/encode_categorical.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/expand_column.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/expand_grid.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/factorize_columns.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/fill.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/filter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/find_replace.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/flag_nulls.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/get_dupes.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/groupby_agg.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/groupby_topk.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/impute.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/jitter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/join_apply.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/label_encode.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/limit_column_characters.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/min_max_scale.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/move.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/pivot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/process_text.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/remove_columns.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/remove_empty.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/rename_columns.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/reorder_columns.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/round_to_fraction.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/row_to_names.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/select_columns.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/shuffle.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/sort_column_value_order.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/sort_naturally.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/take_first.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/then.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/to_datetime.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/toset.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/transform_columns.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/truncate_datetime.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/update_where.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/functions/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/__pycache__/io.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/__pycache__/math.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/__pycache__/ml.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/spark/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/spark/__pycache__/backend.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/spark/__pycache__/functions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/testing_utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/testing_utils/__pycache__/date_data.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/testing_utils/__pycache__/strategies.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/__pycache__/timeseries.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/xarray/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/janitor/xarray/__pycache__/functions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pyjanitor",
+  "sha256": "8acea666055147c259261fb04acb3eb621d1d7d5af2c3e393a997f4c56288d44",
+  "size": 104171,
+  "subdir": "noarch",
+  "timestamp": 1666031388641,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyjanitor-0.23.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.23.1"
+}

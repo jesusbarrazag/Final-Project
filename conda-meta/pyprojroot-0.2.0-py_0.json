@@ -1,0 +1,131 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pathlib",
+    "python"
+  ],
+  "extracted_package_dir": "/home/barrazaj636/anaconda3/pkgs/pyprojroot-0.2.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/pyprojroot-0.2.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/pyprojroot-0.2.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/pyprojroot-0.2.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/pyprojroot-0.2.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/pyprojroot-0.2.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/pyprojroot/__init__.py",
+    "lib/python3.9/site-packages/pyprojroot/pyprojroot.py",
+    "lib/python3.9/site-packages/tests/__init__.py",
+    "lib/python3.9/site-packages/tests/test_pyprojroot.py",
+    "lib/python3.9/site-packages/pyprojroot/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pyprojroot/__pycache__/pyprojroot.cpython-39.pyc",
+    "lib/python3.9/site-packages/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tests/__pycache__/test_pyprojroot.cpython-39.pyc"
+  ],
+  "fn": "pyprojroot-0.2.0-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/barrazaj636/anaconda3/pkgs/pyprojroot-0.2.0-py_0",
+    "type": 1
+  },
+  "md5": "3badf7b6ef1fb30f530ce8b89e205802",
+  "name": "pyprojroot",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/barrazaj636/anaconda3/pkgs/pyprojroot-0.2.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pyprojroot-0.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyprojroot-0.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "dae27be08d3d57410613fe2b56509d03b833b79a6ebb30f6153b98c1be35bda8",
+        "sha256_in_prefix": "dae27be08d3d57410613fe2b56509d03b833b79a6ebb30f6153b98c1be35bda8",
+        "size_in_bytes": 3874
+      },
+      {
+        "_path": "site-packages/pyprojroot-0.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "16f743b794a83610600f0b2e345ce38649d861bbcc3f09b7b0ef394ffb49d756",
+        "sha256_in_prefix": "16f743b794a83610600f0b2e345ce38649d861bbcc3f09b7b0ef394ffb49d756",
+        "size_in_bytes": 796
+      },
+      {
+        "_path": "site-packages/pyprojroot-0.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "sha256_in_prefix": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/pyprojroot-0.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e37834e6fb1066773e51155f2780467afe0978c124ead93ecbf85e267d7c12b7",
+        "sha256_in_prefix": "e37834e6fb1066773e51155f2780467afe0978c124ead93ecbf85e267d7c12b7",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/pyprojroot/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7232921e7913c07b190cde6ed4342633ff5ce53306a7b66fe6840d509d7169f8",
+        "sha256_in_prefix": "7232921e7913c07b190cde6ed4342633ff5ce53306a7b66fe6840d509d7169f8",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "site-packages/pyprojroot/pyprojroot.py",
+        "path_type": "hardlink",
+        "sha256": "5a048d56657768d66e6ac4fcc34f2c1b326d172dfa7f4aa7df785ddca0873dbc",
+        "sha256_in_prefix": "5a048d56657768d66e6ac4fcc34f2c1b326d172dfa7f4aa7df785ddca0873dbc",
+        "size_in_bytes": 1437
+      },
+      {
+        "_path": "site-packages/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tests/test_pyprojroot.py",
+        "path_type": "hardlink",
+        "sha256": "0056090b9b74f9f11608e2ef9b710fd5b3470f205cc8bca6c19635aa5331dcb1",
+        "sha256_in_prefix": "0056090b9b74f9f11608e2ef9b710fd5b3470f205cc8bca6c19635aa5331dcb1",
+        "size_in_bytes": 997
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyprojroot/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyprojroot/__pycache__/pyprojroot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tests/__pycache__/test_pyprojroot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pyprojroot",
+  "sha256": "f4092bb2a84306e08dc1eb80be77a390caf741666afe4349a5f46c30a1bab172",
+  "size": 7665,
+  "subdir": "noarch",
+  "timestamp": 1570535871192,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyprojroot-0.2.0-py_0.tar.bz2",
+  "version": "0.2.0"
+}
